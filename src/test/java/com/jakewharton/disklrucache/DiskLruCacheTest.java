@@ -54,6 +54,7 @@ public final class DiskLruCacheTest {
     cacheDir = tempDir.newFolder("DiskLruCacheTest");
     journalFile = new File(cacheDir, JOURNAL_FILE);
     journalBkpFile = new File(cacheDir, JOURNAL_FILE_BACKUP);
+    //ssss
     for (File file : cacheDir.listFiles()) {
       file.delete();
     }
